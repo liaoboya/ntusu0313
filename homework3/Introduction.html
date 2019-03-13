@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>20190313-homework3-dropdown</title>
+<meta charset="utf-8">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Content</a>
+    <div class="dropdown-content">
+      <a href="Introduction.html">Introduction</a>
+      <a href="School.html">School</a>
+      <a href="Picture.html">Picture</a>
+    </div>
+  </li>
+</ul>
+
+<h1>自我介紹</h1>
+<p>我是廖柏雅(Liao Bo-Ya)，20年前的12月19日誕生於天母，</p>
+<p>不高也不瘦，目前就讀於台灣科技大學資訊管理系二年級。</p>
+<p>家庭組成包括我有四人，父親是攝影師，母親是公務人員，哥哥在成功大學讀研究所，</p>
+<p>平常喜歡聽音樂或畫畫來紓壓，最近的擔憂是天母發生命案，有點心驚驚...</p>
+
+</body>
+</html>
